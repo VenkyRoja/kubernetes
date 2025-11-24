@@ -55,7 +55,13 @@ Werkzeug==2.3.7
 6. Observe that all containers are running without error:
 <img width="521" height="317" alt="image" src="https://github.com/user-attachments/assets/5cf12302-c0db-4291-a85a-02e8d03a4555" />
 
-7. Browse ``` localhost:80 ``` and should see similar output:
+7. curl the URL and  observe similar output:
+```
+ curl http://localhost:80
+```
+<img width="1323" height="202" alt="image" src="https://github.com/user-attachments/assets/2a760811-70f8-4914-8f35-ad07b3d4d781" />
+
+8. Browse ``` localhost:80 ``` and should see similar output:
 <img width="285" height="150" alt="image" src="https://github.com/user-attachments/assets/54c0db37-3308-491f-aba6-038522e0fc4d" />
 
 8. Stop and remove the containers
