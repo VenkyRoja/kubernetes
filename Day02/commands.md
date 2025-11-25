@@ -11,6 +11,7 @@
 | ```docker tag```          | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |    No switches                 | 
 | ```docker images```       | List images                                           |    many                        |
 | ```docker logs```         | Fetch the logs of a container                         |    many                        |
+| ```docker inspect```      | Return low-level information on Docker objects        |    ```-f```  ```-s```          |
 | ```docker ps```           | List containers                                       |    many                        |
 | ```docker compose up```   | Create and start containers                           |    ```-d``` and many           |
 | ```docker compose down``` | Stop and remove containers, networks                  |    many                        |
