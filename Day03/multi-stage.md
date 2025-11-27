@@ -1,6 +1,6 @@
 # Best Practice: Use of multi-stage builds in Docker file
 
-- Multi-stage builds reduce the size of your final image 
+- Multi-stage builds reduce the size of final image 
 - creates a cleaner separation between the building of your image and the final output.
 - splits Dockerfile instructions into distinct stages
 
