@@ -54,3 +54,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 9. Leverage build cache
 10. Pin base image versions
 11. Build and test your images in CI
+
+#### Docker file instructons
+
+- FROM   | - LABEL   | - RUN
+- CMD    | - EXPOSE  | - ENV
+- ADD    | - COPY    | - ENTRYPOINT
+- VOLUME | - WPRKDIR | - ONBUILD
