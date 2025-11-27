@@ -57,7 +57,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 #### Docker file instructons
 
-- FROM   | - LABEL   | - RUN
-- CMD    | - EXPOSE  | - ENV
-- ADD    | - COPY    | - ENTRYPOINT
-- VOLUME | - WPRKDIR | - ONBUILD
+|        |         |             |
+|--------|---------|-------------|
+| FROM   | LABEL   | RUN         |
+| CMD    | EXPOSE  | ENV         |
+| ADD    | COPY    | ENTRYPOINT  |
+| VOLUME | WORKDIR | ONBUILD     |
+
